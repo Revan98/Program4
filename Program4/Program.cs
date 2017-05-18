@@ -12,10 +12,10 @@ namespace Program4
         {
             Pracownicy Dyrektor = new Pracownicy();
             Pracownicy Kierownik = new Pracownicy();
-            Pracownicy Pracownik1 = new Pracownicy("Dominik", "Tutko", "");
-            Pracownicy Pracownik2 = new Pracownicy("Błażej", "Bodnar", "");
+            Pracownicy Pracownik1 = new Pracownicy("o", "o", "");
+            Pracownicy Pracownik2 = new Pracownicy("o", "o", "");
 
-            Dyrektor.setAll("Dominik", "Sulęcki", "Dyrektor", 98453234543, 564376956, "Dobiegniew", 3400, 600);
+            Dyrektor.setAll("o", "o", "Dyrektor", 98453234543, 564376956, "Dobiegniew", 3400, 600);
             Console.WriteLine("Imię i nazwisko:" + " " + Dyrektor.getImie() + " " + Dyrektor.getNazwisko());
             Console.WriteLine("Stanowisko:" + " " + Dyrektor.getStanowisko());
             Console.WriteLine("PESEL:" + " " + Dyrektor.getPESEL());
@@ -26,7 +26,7 @@ namespace Program4
 
             Console.WriteLine(" ");
 
-            Kierownik.setAll("Kacper", "Knop", "Kierownik", 53426825934, 184676548, "Strzelce Kraj", 3000, 550);
+            Kierownik.setAll("o", "o", "Kierownik", 53426825934, 184676548, "Strzelce Kraj", 3000, 550);
             Console.WriteLine("Imię i nazwisko:" + " " + Kierownik.getImie() + " " + Kierownik.getNazwisko());
             Console.WriteLine("Stanowisko:" + " " + Kierownik.getStanowisko());
             Console.WriteLine("PESEL:" + " " + Kierownik.getPESEL());
